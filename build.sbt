@@ -1,4 +1,5 @@
 import play.Project._
+import com.tuplejump.sbt.yeoman.Yeoman
 
 name := "hello-play-scala"
 
@@ -10,3 +11,6 @@ libraryDependencies ++= Seq(
 )
 
 playScalaSettings
+
+Yeoman.yeomanSettings
+
