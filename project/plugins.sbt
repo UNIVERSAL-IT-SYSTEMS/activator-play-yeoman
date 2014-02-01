@@ -8,4 +8,4 @@ resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/release
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.2.0")
 
 //Use the play-yeoman plugin to get yeoman support in the play console
-addSbtPlugin("com.tuplejump" % "sbt-yeoman" % "0.6.2")
+addSbtPlugin("com.tuplejump" % "sbt-yeoman" % "0.6.4")
